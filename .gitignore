@@ -42,3 +42,6 @@ next-env.d.ts
 .replit
 backup.zip
 .replit
+
+# Claude Code
+.claude/settings.local.json
