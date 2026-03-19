@@ -5,6 +5,38 @@ All data comes directly from FDIC Call Report filings, which insured institution
 
 ---
 
+## Development Setup
+
+### Prerequisites
+- Node.js (v18+)
+- npm
+
+### Install Dependencies
+```bash
+npm install
+```
+
+### Run the Dev Server
+```bash
+npm run dev
+```
+The app starts at [http://localhost:3005](http://localhost:3005).
+
+### Build for Production
+```bash
+npm run build
+```
+
+### Lint
+```bash
+npm run lint
+```
+
+### Deployment
+This project deploys to **Cloudflare Pages** via GitHub Actions.
+
+---
+
 ## 📊 Methodology
 
 ### 1. Data Source
